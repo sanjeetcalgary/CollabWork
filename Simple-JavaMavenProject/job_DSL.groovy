@@ -5,7 +5,7 @@ job('DSL-job') {
         git("https://github.com/sanjeetcalgary/CollabWork.git",'main')
     }
 
-    trigger{
+    triggers{
         scm('* * * * *')
     }
 
